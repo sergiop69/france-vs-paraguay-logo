@@ -110,8 +110,8 @@
 1090 sleep 10
 1100 scnclr
 1110 graphic 1,1
-1120 char 1,15,10, "or...": sleep 5
-1130 graphic 1,1:color 0,2:color 1,8:color 4,2:scnclr: rem 8 color amarillo 16 gris claro
+1120 char 1,18,12, "or...": sleep 5
+1130 graphic 1,1:color 0,16:color 1,8:color 4,16:scnclr: rem 8 color amarillo 16 gris claro
 1140 read m,n:if m=-2 then goto 1190
 1150 read q,w:if q=-2 then goto 1190
 1160 if q=-1 then goto 1140
